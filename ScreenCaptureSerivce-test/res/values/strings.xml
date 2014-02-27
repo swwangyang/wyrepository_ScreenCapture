@@ -1,0 +1,8 @@
+<resources>
+
+    <string name="app_name">ScreenCaptureSerivce</string>
+     <string name="sc">success.</string>
+     <string name="fa">fail.</string>
+    
+
+</resources>

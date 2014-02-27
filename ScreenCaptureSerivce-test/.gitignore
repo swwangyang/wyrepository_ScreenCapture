@@ -1,0 +1,18 @@
+# Compiled source #
+###################
+*.class
+*.o
+*.o.d
+
+# Debug Configs #
+################
+libs/*/gdb.setup
+libs/*/gdbserver
+
+# Eclipse Configs #
+.project
+.classpath
+.externalToolBuilders/*
+gen/*
+obj/*
+bin/jarlist.cache

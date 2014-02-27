@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="Theme">
+
+        <!-- Reference to the Pointer style -->
+        <attr name="pointerStyle" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="Pointer">
+
+        <!-- Reference to a pointer icon drawable with STYLE_ARROW -->
+        <attr name="pointerIconArrow" format="reference" />
+        <!-- Reference to a pointer icon drawable with STYLE_SPOT_HOVER -->
+        <attr name="pointerIconSpotHover" format="reference" />
+        <!-- Reference to a pointer icon drawable with STYLE_SPOT_TOUCH -->
+        <attr name="pointerIconSpotTouch" format="reference" />
+        <!-- Reference to a pointer icon drawable with STYLE_SPOT_ANCHOR -->
+        <attr name="pointerIconSpotAnchor" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="PointerIcon">
+
+        <!-- Drawable to use as the icon bitmap. -->
+        <attr name="bitmap" format="reference" />
+        <!-- X coordinate of the icon hot spot. -->
+        <attr name="hotSpotX" format="float" />
+        <!-- Y coordinate of the icon hot spot. -->
+        <attr name="hotSpotY" format="float" />
+    </declare-styleable>
+
+</resources>

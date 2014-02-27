@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pointer-icon xmlns:mekit="http://schemas.android.com/apk/lib/me.wtao.sdk"
+    mekit:bitmap="@drawable/pointer_spot_anchor"
+    mekit:hotSpotX="33"
+    mekit:hotSpotY="33" />
